@@ -11,3 +11,6 @@ at the start of your program's entry-point before invoking it. What you'll get a
 the same program, but you get to intercept all calls to `open` and decide what to do with them.
 
 You can print out a stack trace (as here); or drop into a debugger, or what-have-you.
+
+`test`, `imported.py` and `imported_later.py` aren't part of the monkey-patching: they are just there
+to show the behaviour.
